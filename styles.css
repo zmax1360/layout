@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.top-bar {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: right;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.master-pane {
+    flex: 1;
+    background-color: #ddd;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.details-pane {
+    flex: 2;
+    background-color: #eee;
+    padding: 10px;
+}
