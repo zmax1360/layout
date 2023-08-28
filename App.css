@@ -1,0 +1,37 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.map-keys {
+  align-self: flex-end;
+  /* Add styling for map keys here */
+}
+
+.master-detail-container {
+  display: flex;
+}
+
+.master {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.master-item {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+}
+
+.detail {
+  flex: 1;
+}
+
+.detail-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+}
