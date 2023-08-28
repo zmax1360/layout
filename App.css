@@ -1,22 +1,14 @@
-.app {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 20px;
-}
-
-.map-keys {
-  align-self: flex-end;
-  /* Add styling for map keys here */
-}
-
 .master-detail-container {
   display: flex;
 }
 
 .master {
   flex: 1;
-  padding-right: 20px;
+}
+
+.detail {
+  flex: 2;
+  padding-left: 20px;
 }
 
 .master-item {
@@ -26,12 +18,6 @@
   margin-bottom: 5px;
 }
 
-.detail {
-  flex: 1;
-}
-
-.detail-item {
-  padding: 10px;
-  border: 1px solid #ccc;
-  margin-bottom: 5px;
+.selected {
+  background-color: #f0f0f0;
 }
